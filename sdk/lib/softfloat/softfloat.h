@@ -29,6 +29,9 @@ CHERIOT_DECLARE_STANDARD_LIBCALL(__negdf2, double, double)
 CHERIOT_DECLARE_STANDARD_LIBCALL(__extendsfdf2, double, float)
 CHERIOT_DECLARE_STANDARD_LIBCALL(__truncdfsf2, float, double)
 
+CHERIOT_DECLARE_STANDARD_LIBCALL(__extendhfsf2, float, uint16_t)
+CHERIOT_DECLARE_STANDARD_LIBCALL(__truncsfhf2, uint16_t, float)
+
 // Floating-point <-> integer conversion
 CHERIOT_DECLARE_STANDARD_LIBCALL(__fixsfsi, int, float)
 CHERIOT_DECLARE_STANDARD_LIBCALL(__fixdfsi, int, double)

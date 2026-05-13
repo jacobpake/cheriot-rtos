@@ -42,6 +42,8 @@ softfloat_library(64, "compare")
 softfloat_library(3264, "convert")
 	add_files("../../third_party/compiler-rt/truncdfsf2.c")
 	add_files("../../third_party/compiler-rt/extendsfdf2.c")
+    add_files("../../third_party/compiler-rt/extendhfsf2.c")
+    add_files("../../third_party/compiler-rt/truncsfhf2.c")
 	add_files("../../third_party/compiler-rt/fixunsdfsi.c")
 	add_files("../../third_party/compiler-rt/floatunsidf.c")
 
